@@ -1,0 +1,61 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .logo {
+    font-size: 1.5rem;
+    padding: 25px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .linksContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    a {
+      margin: 10px 15px;
+      cursor: pointer;
+    }
+    .signInOutBtn {
+      color: #494949;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #ffffff;
+      padding: 10px;
+      border: 2px solid #494949;
+      display: inline-block;
+      transition: all 0.4s ease 0s;
+
+      &:hover {
+        color: #ffffff;
+        background: #f6b93b;
+        border-color: #f6b93b;
+        transition: all 0.4s ease 0s;
+      }
+    }
+
+    .makeSurveyBtn {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #41b3a3;
+      padding: 10px;
+      border-radius: 0;
+      display: inline-block;
+      border: none;
+      transition: all 0.4s ease 0s;
+
+      &:hover {
+        background: #319284;
+        letter-spacing: 1px;
+        box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.4s ease 0s;
+      }
+    }
+  }
+}

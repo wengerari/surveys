@@ -1,0 +1,24 @@
+.buttonsContainer{
+  display: flex;
+
+  .signInWithGoogleBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 15px;
+    border: 2px solid #494949;
+    transition: all 0.4s ease 0s;
+
+    &:hover {
+      color: #ffffff;
+      background: #557a95;
+      border-color: #557a95;
+      transition: all 0.4s ease 0s;
+    }
+  }
+}
